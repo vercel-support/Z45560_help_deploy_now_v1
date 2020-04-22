@@ -1,0 +1,42 @@
+{
+  "name": "v2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "engines": {
+    "node": "10"
+  },
+  "scripts": {
+    "dev": "node server/server.js",
+    "build": "next build",
+    "start": "NODE_ENV=production node server/server.js",
+    "test": "mocha ./pages/test --w"
+  },
+  "author": "Gar Liu <gar@lonelydatum.com> (http://lonelydatum.com/)",
+  "license": "MIT",
+  "dependencies": {
+    "@zeit/next-css": "1.0.1",
+    "body-parser": "1.18.3",
+    "cookie-parser": "1.4.4",
+    "cross-env": "5.2.0",
+    "dom-events": "0.1.1",
+    "express": "4.16.3",
+    "fetch": "1.1.0",
+    "i": "0.3.6",
+    "inline-style-prefixer": "5.1.0",
+    "install": "0.13.0",
+    "ip": "1.1.5",
+    "is-undo-redo": "1.0.0",
+    "isomorphic-fetch": "2.2.1",
+    "next": "9.3.5",
+    "next-offline": "3.3.1",
+    "next-routes": "1.4.2",
+    "node-fetch": "2.6.0",
+    "nodemon": "1.18.11",
+    "npm": "6.14.4",
+    "react": "16.8.5",
+    "react-dom": "16.8.5",
+    "register-service-worker": "1.5.2",
+    "styled-components": "5.1.0"
+  }
+}
